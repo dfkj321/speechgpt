@@ -24,7 +24,7 @@ const awsRegions = [
   'us-gov-west-1',
 ];
 // Speech Synthesis
-const speechSynthesisServices = ['System', 'Amazon Polly', 'Azure TTS'];
+const speechSynthesisServices = ['Azure TTS', 'System', 'Amazon Polly'];
 
 // 1. System
 const speechSynthesisSystemLanguages: { [key: string]: string } = {
