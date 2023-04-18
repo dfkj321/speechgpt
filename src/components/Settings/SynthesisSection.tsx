@@ -30,8 +30,8 @@ const SynthesisSection: React.FC<SynthesisSectionProps> = ({}) => {
   const { i18n } = useTranslation();
 
   const speechSynthesisServices = isMobile
-    ? ['Azure TTS', 'Amazon Polly']
-    : ['System', 'Azure TTS', 'Amazon Polly'];
+    ? ['Azure TTS']
+    : ['Azure TTS'];
 
   function getSystemLanguageCode(language: string) {
     return Object.keys(speechSynthesisSystemLanguages).find(
